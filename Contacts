@@ -1,8 +1,0 @@
-درج پیام جدید:
-INSERT INTO contact_us (Name,LastName,Phone,Message)
-VALUES ("Reza","Shojaei","09139109215","Hi. This is test for my database")
-
-
-حذف پیام:
-DELETE FROM contact_us
-WHERE Id = 1
