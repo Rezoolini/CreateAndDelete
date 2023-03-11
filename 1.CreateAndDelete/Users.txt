@@ -1,0 +1,10 @@
+ثبت نام کاربر جدید:
+
+INSERT INTO user (Name,LastName,Pass)
+VALUES ("Reza","Shojaei","reza1234")
+
+
+حذف کاربر:
+
+DELETE FROM user
+WHERE Id = 1
