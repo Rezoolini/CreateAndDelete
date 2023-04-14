@@ -1,0 +1,19 @@
+چند نمونه کد فیلتر و مرتب سازی روی دیتابیس کتابخانه:
+
+Filter:
+
+نمایش کتابهای منتشر شده بعد از سال 1900:
+SELECT * FROM `books` WHERE `release_date` > 1900
+
+نمایش کتابهایی که بیش از 200 صفحه دارند:
+SELECT * FROM `books` WHERE `pages` > 200
+
+Sort:
+
+نمایش کتاب ها به ترتیب حروف الفبا:
+SELECT * FROM `books`
+ORDER BY `title`;
+
+نمایش کتاب ها به ترتیب تعداد صفحه - از زیاد به کم:
+SELECT * FROM `books`
+ORDER BY `pages` DESC;
