@@ -1,0 +1,7 @@
+Index:
+
+ایندکس کردن اسم کتاب ها
+برای جست و جوی سریع تر در لیست کتاب ها
+
+CREATE INDEX idx
+ON library.books (`title`);

@@ -1,0 +1,9 @@
+جست و جو:
+
+لیست کتابهایی که داخل اسم آنها این کلمه وجود دارد:
+SELECT * FROM `books`
+WHERE `title` LIKE "%Lord%";
+
+لیست کتابهایی که داخل موضوع آنها این کلمه وجود دارد:
+SELECT * FROM `books`
+WHERE `subject` LIKE "%fantasy%";
