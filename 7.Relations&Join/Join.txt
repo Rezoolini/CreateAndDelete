@@ -1,0 +1,9 @@
+با توجه به تفاوت پروژه پایگاه داده من برای تحویل تکلیف الحاق
+
+لیست تمام قرض گرفتن های کسانی که در اسمشان "علی" دارند همراه با نام و نام خانوادگی عضو و نام کتاب نوشته شده است
+
+SELECT CONCAT(members.first_name,' ',members.last_name),books.title, loans.* 
+FROM `loans`
+INNER JOIN books ON loans.book_id = books.book_id
+INNER JOIN members ON loans.member_id = members.member_id
+WHERE members.first_name LIKE "%Ali%"
