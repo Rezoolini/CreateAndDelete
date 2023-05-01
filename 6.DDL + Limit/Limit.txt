@@ -1,0 +1,5 @@
+: انتخاب 5 کتابی که جدیدا افزوده شده
+SELECT * FROM `books`
+ORDER BY book_id DESC
+LIMIT 5
+
